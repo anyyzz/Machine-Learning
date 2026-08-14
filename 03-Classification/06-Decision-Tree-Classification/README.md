@@ -6,6 +6,8 @@ Decision Tree Classification is a supervised machine learning algorithm that cla
 
 In this notebook, I trained a Decision Tree Classifier using Scikit-learn to predict whether a user will purchase an SUV based on their age and estimated salary. The `entropy` criterion was used to evaluate possible splits by measuring how mixed the classes are, allowing the tree to favour splits that produce purer groups.
 
+The resulting decision boundary forms distinct rectangular regions, reflecting how the tree makes sequential threshold-based splits on individual features.
+
 Although feature scaling is included in the classification preprocessing pipeline, it is not required for Decision Trees because their decisions are based on feature thresholds rather than distances or feature magnitudes.
 
 ## Dataset
